@@ -10,12 +10,6 @@
 
 Built using **PHP, JavaScript, SCSS, HTML, it demonstrates the full spectrum of **full-stack web development** — from authentication and database integration to responsive UI and admin controls.
 
----
-
-## 🚀 Demo
-🔗 **Live Demo:** *Coming Soon*  
-🎥 *(You can add a short demo video or screenshots here)*  
-
 
 ---
 
