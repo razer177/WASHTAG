@@ -8,14 +8,14 @@
 
 **WASHTAG** is a **BCA Final Year Mini Project** — a modern **web-based laundry management system** designed to streamline laundry bookings, order tracking, and user management for both customers and administrators.
 
-Built using **PHP, JavaScript, SCSS, HTML, and Hack**, it demonstrates the full spectrum of **full-stack web development** — from authentication and database integration to responsive UI and admin controls.
+Built using **PHP, JavaScript, SCSS, HTML, it demonstrates the full spectrum of **full-stack web development** — from authentication and database integration to responsive UI and admin controls.
 
 ---
 
 ## 🚀 Demo
 🔗 **Live Demo:** *Coming Soon*  
 🎥 *(You can add a short demo video or screenshots here)*  
-📸 `assets/screenshot.png` *(optional preview image)*
+
 
 ---
 
@@ -35,20 +35,18 @@ Built using **PHP, JavaScript, SCSS, HTML, and Hack**, it demonstrates the full 
 
 | Layer | Technology |
 |-------|-------------|
-| **Frontend** | HTML, CSS, SCSS, JavaScript |
-| **Backend** | PHP, Hack |
+| **Frontend** | HTML, CSS, JavaScript |
+| **Backend** | PHP|
 | **Database** | MySQL |
-| **Tools** | Composer, npm, Git |
-| **Server** | XAMPP / LAMP / MAMP |
+| **Tools** | VSCODE , Git |
+| **Server** | XAMPP  |
 
 ---
 
 ## ⚙️ Requirements
 
 - PHP **>= 7.4**  
-- MySQL **>= 5.7**  
-- Composer  
-- Node.js & npm *(if front-end assets are managed)*  
+- MySQL **>= 5.7**   
 - Local server (XAMPP/LAMP/MAMP or equivalent)
 
 ---
@@ -61,34 +59,45 @@ git clone https://github.com/razer177/WASHTAG.git
 cd WASHTAG
 ```
 
-Install dependencies:
-```bash
-composer install
-npm install        # optional, if using SCSS/JS bundler
-```
+---
 
-Set up environment variables:
-```bash
-cp .env.example .env
-# update DB credentials in .env
-```
+## 🛠️ Installation (XAMPP)
 
-Import the database:
-```bash
-# Import database.sql into your MySQL server
-```
+1. **Clone or download** the repository:
 
-Build front-end assets (if used):
-```bash
-npm run build
-```
+   ```bash
+   git clone https://github.com/razer177/WASHTAG.git
+   ```
 
-Start the development server:
-```bash
-php -S localhost:8000 -t public
-```
+2. **Move the project folder** to your XAMPP `htdocs` directory:
 
-Or place the project folder inside `htdocs` if using **XAMPP/MAMP**.
+   ```
+   C:\xampp\htdocs\WASHTAG
+   ```
+
+3. **Start XAMPP** and run:
+
+   * **Apache** and **MySQL** modules.
+
+4. **Set up the database:**
+
+   * Open [phpMyAdmin](http://localhost/phpmyadmin)
+   * Create a new database (e.g., `washtag_db`)
+   * Import the provided `database.sql` file.
+
+5. **Update database credentials:**
+
+   * Open `config.php` or `.env` (if used)
+   * Enter your MySQL username, password, and database name (usually `root` with no password)
+
+6. **Access the website:**
+
+   * Open your browser and go to:
+     👉 [http://localhost/WASHTAG](http://localhost/WASHTAG)
+
+---
+
+
 
 ---
 
@@ -101,19 +110,6 @@ Or place the project folder inside `htdocs` if using **XAMPP/MAMP**.
 
 ---
 
-## 🗂️ Project Structure
-
-```
-WASHTAG/
-├── public/         # Entry point and public assets
-├── app/ or src/    # Core backend logic
-├── assets/         # SCSS, JS, and images
-├── database/       # SQL migrations or seed files
-├── views/          # Front-end templates
-└── .env.example    # Environment variables template
-```
-
----
 
 ## 🤝 Contributing
 
@@ -131,8 +127,8 @@ Contributions, suggestions, and improvements are welcome!
 
 - **Developer:** [@razer177](https://github.com/razer177)  
 - **Project:** WASHTAG – BCA Final Year Mini Project  
-- **Supervisor:** *(Add your guide’s name)*  
-- **Institution:** *(Add your college/university name)*  
+- **Supervisor:** *(Satish naik)*  
+- **Institution:** *(KBCA KARWAR)*  
 
 ---
 
@@ -146,7 +142,7 @@ See the [LICENSE](LICENSE) file for more details.
 ## 📬 Contact
 
 - **GitHub:** [razer177](https://github.com/razer177)  
-- **Email:** *(Add your email address)*  
+- **Email:** *(bhargav.haldipur2004@gmail.com)*  
 
 ---
 
